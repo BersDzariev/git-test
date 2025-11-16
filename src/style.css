@@ -1,20 +1,47 @@
+body{
+    background-color: rgb(197, 197, 197);
+}
+
+header{
+    background-color: white;
+    height: 40px;
+}
+
 .header__wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 10px;
+    
 }
 
 .icon{
-    width: 25px;
-    margin-right: 20px;
+    width: 16px;
+    margin-right: 40px;
 }
+
+
 
 .nav-list{
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
 }
 
 .nav-link{
     color: black;
+}
+
+.drop-down_list{
+    background-color: white;
+    height: 300px;
+}
+
+.drop-down_list{
+    display: block;
+}
+
+.nav-link a:hover ~ .drop-down_list{
+    display: block;
 }
